@@ -4,12 +4,6 @@ A simple web app that helps users track their income and expenses in real time. 
 
 ---
 
-## 📸 Preview
-
-![screenshot or gif here, if applicable]
-
----
-
 ## ✨ Features
 
 - ✅ Add income or expense transactions
@@ -39,5 +33,4 @@ A simple web app that helps users track their income and expenses in real time. 
 
 ---
 
-## 📁 Project Structure
 
