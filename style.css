@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(225, 229, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 46em;
+    width: 64%;
+    background-color: rgb(77, 80, 90);
+    display: flex;
+}
+#leftSide{
+    height: 46em;
+    width: 50%;
+    background-color: rgb(43, 45, 53);
+}
+.income-title{
+
+}
+.income-title p{
+    text-transform: uppercase;
+    padding: 1.4em;
+    font-size: 1.6em;
+    color: rgb(253, 178, 38);
+}
+.balance{
+    padding-left: 2.4em;
+}
+.balance-text{
+    color: white;
+
+}
+.amount-number{
+    font-size: 2.2em;
+    color: white;
+    padding-top: .8em;
+}
+.amount-boxes{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.4em;
+    
+}
+.income-box{
+    height: 9em;
+    width: 16.2em;
+    border: 3px solid rgb(14, 236, 14);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 236, 14);
+}
+.income-text{
+    padding-bottom: .4em;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+.income-number{
+    font-size: 1.7em;
+    padding-top: .2em;
+}
+.expense-box{
+    height: 9em;
+    width: 16.2em;
+    border: 3px solid rgb(236, 14, 14);
+    margin-left: 1em;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(236, 14, 14);
+}
+.expense-text{
+    padding-bottom: .4em;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+.expense-number{
+    font-size: 1.7em;
+    padding-top: .2em;
+}
+.bottom-half-container{
+    height: 18em;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+.label{
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: .4em;
+    padding-top: 1em;
+}
+.input input{
+    width: 100%;
+    height: 3em;
+    border: none;
+    border-radius: 3px;
+    padding-left: .8em;
+    font-size: .9em;
+    outline: none;
+}
+.add-btn{
+    padding-top: 2em;
+    width: 100%;
+}
+.add-btn button{
+    width: 100%;
+    height: 2.8em;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: rgb(58, 137, 228);
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+.add-btn button:hover{
+    background-color: rgb(80, 145, 219);
+    margin-top: .2em;
+}
+.add-btn button:active{
+    background-color: rgb(58, 137, 228);
+}
+
+
+#rightSide{
+    height: 46em;
+    width: 50%;
+    background-color: rgb(253, 255, 255);
+}
+.transaction-title{
+    padding-top: 2em;
+    border-bottom: 1px solid rgb(214, 217, 219);
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0% auto;
+}
+.transaction-title p{
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+#detailContainer{
+    height: 40em;
+    width: 90%;
+    margin: 1em auto;
+}
+
+.detail-desc{
+    
+}
+.detail-amt{
+    padding-left: 2em;
+    
+}
+.detail-edit{
+    margin-left: auto;
+}
+i{
+    cursor: pointer;
+    transition: .2s;
+}
+i:hover{
+    transform: scale(1.1);
+}
+i:active{
+    transform: scale(.9);
+}
+.detail-trash{
+    padding-left: 1em;
+    margin-right: 1em;
+    
+}
+
+.list-bar{
+    border-radius: 3px;
+    display: flex;
+    background-color: rgba(214, 214, 214, 0.493);
+    height: 3em;
+    align-items: center;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1850px){
+    body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(225, 229, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #container{
+        height: 46em;
+        width: 64%;
+        background-color: rgb(77, 80, 90);
+        display: flex;
+    }
+    #leftSide{
+        height: 46em;
+        width: 50%;
+        background-color: rgb(43, 45, 53);
+    }
+    .income-title{
+
+    }
+    .income-title p{
+        text-transform: uppercase;
+        padding: 1.4em;
+        font-size: 1.6em;
+        color: rgb(253, 178, 38);
+    }
+    .balance{
+        padding-left: 2.4em;
+    }
+    .balance-text{
+        color: white;
+
+    }
+    .amount-number{
+        font-size: 2.2em;
+        color: white;
+        padding-top: .8em;
+    }
+    .amount-boxes{
+        display: flex;
+        justify-content: center;
+        padding-top: 1.4em;
+        
+    }
+    .income-box{
+        height: 9em;
+        width: 16.2em;
+        border: 3px solid rgb(14, 236, 14);
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(14, 236, 14);
+    }
+    .income-text{
+        padding-bottom: .4em;
+        font-size: 1.4em;
+        font-weight: 300;
+    }
+    .income-number{
+        font-size: 1.7em;
+        padding-top: .2em;
+    }
+    .expense-box{
+        height: 9em;
+        width: 16.2em;
+        border: 3px solid rgb(236, 14, 14);
+        margin-left: 1em;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(236, 14, 14);
+    }
+    .expense-text{
+        padding-bottom: .4em;
+        font-size: 1.4em;
+        font-weight: 300;
+    }
+    .expense-number{
+        font-size: 1.7em;
+        padding-top: .2em;
+    }
+    .bottom-half-container{
+        height: 18em;
+        width: 87%;
+        margin: 0 auto;
+        margin-top: 3em;
+    }
+    .label{
+        font-size: 1.2em;
+        color: white;
+        padding-bottom: .4em;
+        padding-top: 1em;
+    }
+    .input input{
+        width: 100%;
+        height: 3em;
+        border: none;
+        border-radius: 3px;
+        padding-left: .8em;
+        font-size: .9em;
+        outline: none;
+    }
+    .add-btn{
+        padding-top: 2em;
+        width: 100%;
+    }
+    .add-btn button{
+        width: 100%;
+        height: 2.8em;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        background-color: rgb(58, 137, 228);
+        cursor: pointer;
+        transition: .1s ease-in-out;
+    }
+    .add-btn button:hover{
+        background-color: rgb(80, 145, 219);
+        margin-top: .2em;
+    }
+    .add-btn button:active{
+        background-color: rgb(58, 137, 228);
+    }
+
+
+    #rightSide{
+        height: 46em;
+        width: 50%;
+        background-color: rgb(253, 255, 255);
+    }
+    .transaction-title{
+        padding-top: 2em;
+        border-bottom: 1px solid rgb(214, 217, 219);
+        padding-bottom: 10px;
+        width: 90%;
+        margin: 0% auto;
+    }
+    .transaction-title p{
+        font-size: 1.3em;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    <div id="container">
+        <div id="leftSide">
+            <div class="income-title">
+                <p>Income Expense Tracker</p>
+            </div>
+            <div class="balance">
+                <div class="balance-text">
+                    <p>Your Balance</p>
+                </div>
+                <div class="amount-number">
+                    <p id="balanceAmt">$ 0.00</p>
+                </div>
+            </div>
+
+
+            <div class="amount-boxes">
+                <div class="income-box">
+                    <div class="income-text">
+                        <p>INCOME</p>
+                    </div>
+                    <div class="income-number">
+                        <p id="incomeAmt">$ 0.00</p>
+                    </div>
+                </div>
+                <div class="expense-box">
+                    <div class="expense-text">
+                        <p>EXPENSES</p>
+                    </div>
+                    <div class="expense-number">
+                        <p id="expenseAmt">$ 0.00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bottom-half-container">
+                <div class="desc-container">
+                    <div class="desc-label label">
+                        <label>Description</label>
+                    </div>
+                    <div class="desc-input input">
+                        <input id="descInput" placeholder="Enter Description">
+                    </div>
+                </div>
+                <div class="amount-container">
+                    <div class="amount-label label">
+                        <label>Amount</label>
+                    </div>
+                    <div class="amount-input input">
+                        <input id="amtInput" placeholder="Amount">
+                    </div>
+                </div>
+                <div class="add-btn">
+                    <button id="addBtn">Add Transaction</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="rightSide">
+            <div class="transaction-title">
+                <p>Transaction Details</p>
+            </div>
+            <div id="detailContainer">
+                <!-- 
+                <div class="detail-desc">
+                    <p></p>
+                </div>
+
+                <div class="detail-amt">
+                    <p>$</p>
+                </div>
+
+                <div class="detail-edit">
+                    <i class="fa-solid fa-pen-to-square" style="font-size: 1.2em; cursor: pointer;"></i>
+                </div>
+
+                <div class="detail-trash">
+                    <i class="fa-solid fa-trash" style="color: red; font-size: 1.2em; cursor: pointer;"></i>
+                </div> -->
+                
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
